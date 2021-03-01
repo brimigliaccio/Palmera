@@ -2155,7 +2155,7 @@ input, select, textarea {
 	}
 
 	a.icon.alt:hover:before {
-		background-color: #6fc3df;
+		background-color: #ffffff;
 	}
 
 	a.icon.alt:active:before {
@@ -2289,6 +2289,7 @@ input, select, textarea {
 		ul.actions li {
 			padding: 0 0 0 1em;
 			vertical-align: middle;
+            color: saddlebrown;
 		}
 
 		ul.actions.special {
@@ -2406,12 +2407,12 @@ input, select, textarea {
 				}
 
 					ul.pagination li > .page.active:hover {
-						background-color: #9bf1ff;
+						background-color: #D2B48C;
 						color: #D2B48C !important;
 					}
 
 					ul.pagination li > .page.active:active {
-						background-color: #53e3fb;
+						background-color: #D2B48C;
 					}
 
 			ul.pagination li:first-child {
@@ -2453,7 +2454,7 @@ input, select, textarea {
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(212, 212, 255, 0.035);
+				background-color: rgba(255, 255, 255, 0.04);
 			}
 
 		table td {
@@ -2554,7 +2555,7 @@ input, select, textarea {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(155, 241, 255, 0.1);
+			background-color: rgba(255, 255, 255, 0.1);
 			box-shadow: inset 0 0 0 2px #53e3fb;
 			color: #53e3fb;
 		}
@@ -2689,7 +2690,7 @@ input, select, textarea {
 			button.primary:active,
 			.button.primary:hover,
 			.button.primary:active {
-				background-color: #9bf1ff;
+				background-color: #D2B48C;
 				color: #D2B48C !important;
 			}
 
@@ -2698,7 +2699,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #53e3fb;
+				background-color: #a58760;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2835,27 +2836,27 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #A0522D;
+				background-color: #664229;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #FFEBCD;
+				background-color: #B99976;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #DEB887;
+				background-color: #E5D3B3;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #8B4513;
+				background-color: #B99976;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
-				background-color: #CD853F;
+				background-color: #987554;
 			}
 
 			.tiles article:nth-child(6n):before {
-				background-color: #F5DEB3;
+				background-color: #D2B48C;
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -2942,7 +2943,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #2e3450;
+			background-color: #D2B48C;
 		}
 
 			.spotlights > section > .image {
@@ -3118,8 +3119,8 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #2a2f4a;
-		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
+		background-color: #ffffff;
+		box-shadow: 0 0 0.25em 0 rgba(255, 255, 255, 0.15);
 		cursor: default;
 		font-weight: 600;
 		height: 3.25em;
@@ -3141,6 +3142,7 @@ input, select, textarea {
 			height: inherit;
 			line-height: inherit;
 			padding: 0 1.5em;
+           
 		}
 
 			#header .logo strong {
@@ -3157,11 +3159,11 @@ input, select, textarea {
 			}
 
 			#header .logo:hover strong {
-				background-color: #9bf1ff;
+				background-color: #D2B48C;
 			}
 
 			#header .logo:active strong {
-				background-color: #53e3fb;
+				background-color: #D2B48C;
 			}
 
 		#header nav {
@@ -3390,17 +3392,17 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		padding: 15em 0 2em 0 ;
+		padding: 6em 0 2em 0 ;
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
-		height: 2vh;
+		height: 1vh;
 		margin-bottom: -3.25em;
-		max-height: 32em;
-		min-height: 22em;
+		max-height: 10em;
+		min-height: 5em;
 		position: relative;
 		top: -3.25em;
         color: white; 
@@ -3416,7 +3418,7 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #FFEBCD;
+			background-color: #ffffff;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3493,31 +3495,31 @@ input, select, textarea {
 		}
 
 			#banner.major.alt {
-				opacity: 0.75;
+				opacity: 0;
 			}
 
 		#banner.style1:after {
-			background-color: #6fc3df;
+			background-color: #382308;
 		}
 
 		#banner.style2:after {
-			background-color: #8d82c4;
+			background-color: #B99976;
 		}
 
 		#banner.style3:after {
-			background-color: #ec8d81;
+			background-color: #d2b48c;
 		}
 
 		#banner.style4:after {
-			background-color: #e7b788;
+			background-color: #e5d3b3;
 		}
 
 		#banner.style5:after {
-			background-color: #8ea9e8;
+			background-color: #987554;
 		}
 
 		#banner.style6:after {
-			background-color: #87c5a4;
+			background-color: #664229;
 		}
 
 		body.is-preload #banner:after {
@@ -3533,7 +3535,7 @@ input, select, textarea {
 			-webkit-transform: translateX(-0.5em);
 			-ms-transform: translateX(-0.5em);
 			transform: translateX(-0.5em);
-			opacity: 0;
+			opacity: 1;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3580,7 +3582,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#banner {
-				padding: 6em 0 2em 0 ;
+				padding: 0em 0 2em 0 ;
 			}
 
 				#banner > .inner .content p br {
@@ -3588,7 +3590,7 @@ input, select, textarea {
 				}
 
 				#banner.major {
-					padding: 8em 0 4em 0 ;
+					padding: 8em 0 2em 0 ;
 				}
 
 		}
@@ -3596,7 +3598,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #2a2f4a;
+		background-color: #ffffff;
 	}
 
 		#main > * {
@@ -3611,9 +3613,9 @@ input, select, textarea {
 				padding: 4em 0 2em 0 ;
 				margin: 0 auto;
 				max-width: 65em;
-				width: calc(100% - 6em);
+				width: calc(100% - 2em);
 			}
-
+d
 				@media screen and (max-width: 736px) {
 
 					#main > * > .inner {
